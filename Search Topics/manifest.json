@@ -1,0 +1,17 @@
+{
+  "name": "Search Topics",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Opens few websites with the desired topics searched in automatically.",
+  "icons": { "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png" },
+  "browser_action": {
+    "default_icon": "icon19.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ]
+}
