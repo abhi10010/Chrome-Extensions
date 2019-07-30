@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 200px; width: 350px;">
+<head>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+		<!-- Compiled and minified JavaScript -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+	<style type="text/css" src = "popup.css"></style>
+	<script type="text/javascript" src="popup.js"></script>
+	<script src="vendors/filesaver.min.js"></script>
+      <script src="vendors/canvas.js"></script>
+</head>
+<body>
+<div id="label" style="font-size: 16px; margin: 20px;">Enter the list of urls to open:</div>
+<div class="row">
+		<form class="col s12">
+		  <div class="row">
+			<div class="input-field col s12">	
+<textarea class="materialize-textarea" id="urls" tabindex="1" style="margin-top: 0px; border-bottom: 1px solid #49abc4;"></textarea>
+			</div>
+		  </div>
+		</form>
+</div>
+	<div id="controls">
+<button class="btn waves-effect waves-light" style="background-color: #49abc4; margin: 20px; margin-top: -20px;" id="open" tabindex="3">Open URLs</button>
+</div>
+</body>
+</html>
