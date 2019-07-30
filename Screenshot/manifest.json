@@ -1,0 +1,16 @@
+{
+   "browser_action": {
+      "default_icon": "images/icon.png",
+      "default_popup": "popup.html"
+   },
+   "description": "A simple extension to take screenshot of the current webpage entirely and save it to your downloads as a .PNG file.",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "48": "images/icon48.png"
+   },
+   "manifest_version": 2,
+   "name": "Screenshot",
+   "permissions": [ "activeTab" ],
+   "version": "1.0"
+}
